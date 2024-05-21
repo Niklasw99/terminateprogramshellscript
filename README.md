@@ -4,7 +4,7 @@ a simple program / script to terminate halting software
 
 A simple (Script /  oneliner to kill pesky programs halting) like discord.
 
-you can copy the function onliner here (works in bash "only")
+you can copy the function one-liner here (works in bash "only")
 ```bash
 terminate() { ps x | grep "$@" | grep -o "[0-9]*[\ ][\?]" |   grep -o "[0-9]*" | xargs -I {} kill -9 {};}
 ```
