@@ -11,3 +11,6 @@ alias terminate='read killname -P "Appname:" ;  ps x | grep "$killname" | grep -
 Now you can type Terminate, 
 then you'll be asked what program you want to terminate.
 
+
+
+# you can add the script.sh as an alias in your .rc and just do terminate discord
